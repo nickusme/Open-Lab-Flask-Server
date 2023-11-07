@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify, abort
+import requests
 
 app = Flask(__name__)
 
@@ -10,8 +11,16 @@ def serve_website():
 
 @app.route('/api/data', methods=['GET'])
 def get_data():
-    data = {'message': 'Hello from the server!'}
-    return jsonify(data)
+    r = requests.get("https://api.apispreadsheets.com/data/gsh494OtZiT0S44Y/", headers={})
+
+    if r.status_code == 201:
+        # SUCCESS 
+        pass
+    else:
+        # ERROR
+        pass
+    
+    return r.text
 
 
 # Implement IP-based access control
