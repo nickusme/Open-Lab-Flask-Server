@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/react/static/css/main.c7820b88.css",
+    "main.js": "/static/react/static/js/main.3a72e94f.js",
+    "static/js/787.f17655d4.chunk.js": "/static/react/static/js/787.f17655d4.chunk.js",
+    "static/media/openlab-new-neon-header2.png": "/static/react/static/media/openlab-new-neon-header2.02a4f4b27297ece965e7.png",
+    "static/media/logo.svg": "/static/react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "main.c7820b88.css.map": "/static/react/static/css/main.c7820b88.css.map",
+    "main.3a72e94f.js.map": "/static/react/static/js/main.3a72e94f.js.map",
+    "787.f17655d4.chunk.js.map": "/static/react/static/js/787.f17655d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7820b88.css",
+    "static/js/main.3a72e94f.js"
+  ]
+}
